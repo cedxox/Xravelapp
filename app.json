@@ -2,9 +2,9 @@
   "expo": {
     "name": "Xravel",
     "slug": "xravel",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
-    "icon": "./assets/splash.png",
+    "icon": "./assets/123splash.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -20,13 +20,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/123splash.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.seth.xravel"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
