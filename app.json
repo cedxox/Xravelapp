@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seth.xravel"
     },
     "android": {
       "adaptiveIcon": {
@@ -32,6 +33,6 @@
         "projectId": "cf2c1776-47ef-48c9-a735-2cb3a1025eb4"
       }
     },
-    "owner": "itaja"
+    "owner": "xravel"
   }
 }
