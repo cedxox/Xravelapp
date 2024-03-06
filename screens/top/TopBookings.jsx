@@ -68,7 +68,7 @@ const TopBookings = ({navigation}) => {
             <View style={renewable.rowWithSpace("space-between")}>
               <HeightSpacer height={50} />
               <RenewnableBtn
-                onPress={() => navigation.navigate("")}
+                onPress={() => navigation.navigate("HotelDetails")}
                 btnText={"Details"}
                 width={(SIZES.width - 50) / 2.2}
                 backgroundColor={COLOR.white}

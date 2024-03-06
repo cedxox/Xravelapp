@@ -93,6 +93,8 @@ const HotelDetails = ({ navigation }) => {
   };
 
   return (
+
+    
     <ScrollView>
       <View style={{ height: 80 }}>
         <AppBar
@@ -203,7 +205,6 @@ const HotelDetails = ({ navigation }) => {
           <ReviewList reviews={hotel.reviews} />
 
         </View>
-
         <View style={[renewable.rowWithSpace("space-between"), styles.bottom]}>
           <View>
           <RenewableText
@@ -234,6 +235,8 @@ const HotelDetails = ({ navigation }) => {
           </View>
       </View>
     </ScrollView>
+
+    
   );
 };
 

@@ -1,11 +1,15 @@
-import { StyleSheet, Text, View, VirtualizedList } from 'react-native'
+import { StyleSheet, Text, View, VirtualizedList, ActivityIndicator } from 'react-native'
 import React from 'react'
 import HeightSpacer from '../Renewable/HeightSpacer'
-import { SIZES } from '../../constants/theme'
+import { COLOR, SIZES } from '../../constants/theme'
 import Country from '../Tiles/Country/Country'
+import fetchCountries from '../../hook/fectchCountries'
+
+
 
 const Places = () => {
-
+   
+  // const {countries, isloading, error, refetch} = fetchCountries();
   const countries = [
 
   {
@@ -50,7 +54,9 @@ const Places = () => {
 
 
 ]
-
+//  if(isloading){
+//   return <ActivityIndicator size={SIZES.xlarge} Color={COLOR.lightblue}/>
+//  }
   return (
     <View>
       <HeightSpacer height={20}/>

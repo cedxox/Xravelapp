@@ -84,5 +84,5 @@ export {
   // Places,
 
 
-// import RenewableTile from './Renewable/RenewableTile';
+
     // RenewableTile,
